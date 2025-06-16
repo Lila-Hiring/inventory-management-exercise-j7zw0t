@@ -1,8 +1,5 @@
 ## The Problem
-_Please describe the problem you are trying to solve. Attach Jira issue number if applicable._
-
-<!--- Fill in the tag below with the JIRA issue number. The Jira GitHub plug-in will automatically link it.) -->
-[JIRA-01]
+_Please describe the problem you are trying to solve._
 
 ## Describe your solution
 Describe how your code solves the problem above.

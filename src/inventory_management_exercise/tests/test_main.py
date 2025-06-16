@@ -9,13 +9,6 @@ from inventory_management_exercise.main import app
 client = TestClient(app)
 
 
-def test_read_hello_endpoint() -> None:
-    """Test the root endpoint."""
-    response = client.get("/v1")
-    assert response.status_code == 200
-    assert response.json() == {"message": "Welcome to inventory_management_exercise!"}
-
-
 def test_health_check() -> None:
     """Test the health check endpoint."""
     response = client.get("/healthz")

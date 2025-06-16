@@ -11,9 +11,8 @@ app = FastAPI(
     description="A FastAPI and React programming exercise",
     version="0.1.0",
     openapi_url="/v1/openapi.json",
-    # Scalar UI is hosted at /v1/docs, so we don't need Swagger, nor ReDoc.
     docs_url=None,
-    redoc_url=None,
+    redoc_url="/docs",
 )
 
 # Add CORS middleware
